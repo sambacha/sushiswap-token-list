@@ -1,0 +1,12 @@
+.DS_Store
+.vscode/
+.idea/
+dist/
+node_modules/
+*.log
+*.tgz
+*.tar.gz
+*.zip
+codecov
+coverage/
+build/

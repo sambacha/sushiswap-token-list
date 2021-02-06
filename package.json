@@ -1,0 +1,24 @@
+{
+  "name": "@yfi/sushiswap-tokenlist",
+  "version": "1.0.0",
+  "description": "SushiSwap tokenlist with schema validation",
+  "license": "Apache-2.0",
+  "main": "index.mjs",
+  "dependencies": {},
+  "devDependencies": {
+    "@uniswap/token-lists": "1.0.0-beta.19",
+    "ajv": "6.12.6",
+    "semantic-release": "17.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules --experimental-json-modules ./index.mjs"
+  },
+  "keywords": [
+    "tokens",
+    "tokenlist",
+    "uniswap",
+    "schema",
+    "ethereum"
+  ]
+}
