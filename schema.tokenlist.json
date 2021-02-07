@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sushiswap.org/tokenlist.schema.json",
+  "$id": "https://yopen.org/tokenlist.schema.json",
   "title": "SushiSwap Token List",
   "description": "Schema for lists of tokens compatible with the SushiSwap Interface",
   "definitions": {
