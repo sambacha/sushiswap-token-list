@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "SushiSwap tokenlist with schema validation",
   "license": "Apache-2.0",
-  "main": "index.mjs",
-  "dependencies": {},
+  "main": "sushiswap.mjs",
+  "dependencies": {
+    "ajv-formats": "^1.5.1",
+    "ajv-keywords": "^4.0.0"
+  },
   "devDependencies": {
     "@uniswap/token-lists": "1.0.0-beta.19",
-    "ajv": "6.12.6",
     "semantic-release": "17.3.7"
   },
   "scripts": {

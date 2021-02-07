@@ -1,0 +1,6 @@
+/CHANGELOG.md		merge=union
+*.sh text eol=lf
+*.yml text eol=lf
+hooks/* text eol=lf
+*.json text eol=lf
+

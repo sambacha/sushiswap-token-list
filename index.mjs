@@ -1,11 +1,7 @@
-import defaultExport from "@uniswap/token-lists";
-import Ajv from "ajv";
-import * as data from "./sushiswap.tokenlist.json";
+'use strict';
 
-var ajv = new Ajv();
-var valid = ajv
-  .addSchema(defaultExport.schema, "SushiSwap")
-  .validate("SushiSwap", data.default);
-if (!valid) {
-  throw new Error(ajv.errorsText());
-}
+const schema = require('./tokenlist.schema.json');
+const validate = require('./validate');
+
+module.exports.schema = schema;
+module.exports.validate = validate;
