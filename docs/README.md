@@ -1,9 +1,6 @@
 # 🍣 SushiSwap Token List Registry Schema
 
-
 Schema for lists of tokens compatible with the SushiSwap Interface
-
-
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                               |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------- |
@@ -24,9 +21,6 @@ Schema for lists of tokens compatible with the SushiSwap Interface
 | [keywords](#keywords)   | `array`  | Optional | cannot be null | [SushiSwap Token List](tokenlist-properties-keywords.md 'https://yopen.org/tokenlist.schema.json#/properties/keywords')   |
 | [tags](#tags)           | `object` | Optional | cannot be null | [SushiSwap Token List](tokenlist-properties-tags.md 'https://yopen.org/tokenlist.schema.json#/properties/tags')           |
 | [logoURI](#logouri)     | `string` | Optional | cannot be null | [SushiSwap Token List](tokenlist-properties-logouri.md 'https://yopen.org/tokenlist.schema.json#/properties/logoURI')     |
-
-
-
 
 ## Token List `Name`
 
@@ -756,7 +750,6 @@ An object containing any arbitrary or vendor-specific token metadata
   "is_verified_by_me": true
 }
 ```
-
 
 ## License
 
