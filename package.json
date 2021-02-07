@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@uniswap/token-lists": "1.0.0-beta.19",
+    "chai-json-schema-ajv": "^5.2.3",
     "semantic-release": "17.3.7"
   },
   "scripts": {
