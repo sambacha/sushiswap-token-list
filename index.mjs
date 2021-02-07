@@ -1,6 +1,6 @@
 'use strict';
 
-const schema = require('./tokenlist.schema.json');
+const schema = require('./schema.tokenlist.json');
 const validate = require('./validate');
 
 module.exports.schema = schema;
