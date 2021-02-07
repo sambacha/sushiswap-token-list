@@ -1,3 +1,8 @@
+out/
+generated/
+build/
+compiler/
+_dev
 .DS_Store
 .vscode/
 .idea/
