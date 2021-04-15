@@ -1,23 +1,21 @@
 {
-  "name": "@yfi/sushiswap-tokenlist",
+  "name": "sushiswap-tokenlist",
   "version": "1.0.0",
   "description": "SushiSwap tokenlist with schema validation",
   "license": "Apache-2.0",
   "main": "sushiswap.mjs",
   "dependencies": {
-    "ajv": "^7.0.4",
+    "ajv": "^aqw7.0.4",
     "ajv-formats": "^1.5.1",
     "ajv-keywords": "^4.0.0",
     "json-schema-to-typescript": "^10.1.3"
   },
   "devDependencies": {
     "@uniswap/token-lists": "1.0.0-beta.19",
-    "chai-json-schema-ajv": "^5.2.3",
-    "semantic-release": "17.3.7"
+    "chai-json-schema-ajv": "^5.2.3"
   },
   "scripts": {
-    "test": "./node_movules",
-    "start": "node --experimental-modules --experimental-json-modules ./validate.mjs"
+    "validate": "node --experimental-modules --experimental-json-modules ./validate.mjs"
   },
   "keywords": [
     "tokens",
