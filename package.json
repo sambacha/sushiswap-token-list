@@ -11,7 +11,7 @@
     "json-schema-to-typescript": "^10.1.3"
   },
   "devDependencies": {
-    "@uniswap/token-lists": "1.0.0-beta.19",
+    "@uniswap/token-lists": "1.0.0-beta.21",
     "chai-json-schema-ajv": "^5.2.3"
   },
   "scripts": {
